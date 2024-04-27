@@ -16,3 +16,9 @@ Python: Programming language used for backend development.
 ![image](https://github.com/vaishnavi-4102/Flight-Reservation/assets/94067180/c5521900-2b91-44c4-a3b3-3995fe785bc0)
 ![image](https://github.com/vaishnavi-4102/Flight-Reservation/assets/94067180/ac83eab1-ce05-44c7-b29e-f3d77cea63f1)
 ![image](https://github.com/vaishnavi-4102/Flight-Reservation/assets/94067180/29ca25b0-bf14-4e6f-a063-5bc3b0fe0c7e)
+API Endpoints
+/flight/flights/: List all flights or create a new flight.
+/flight/passenger/: List all passengers or create a new passenger.
+/flight/reservation/: List all reservations or create a new reservation.
+/flight/findflight/ (POST): Find available flights based on departure city, arrival city, and date of departure.
+/flight/saveReservation/ (POST): Save a new reservation by specifying flight and passenger details.
